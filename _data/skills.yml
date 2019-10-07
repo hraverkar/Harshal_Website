@@ -1,0 +1,29 @@
+languages:
+  - item: C#
+  - item: WPF
+  - item: TypeScript
+  - item: CSS/Sass
+  - item: MSSQL
+  - item: PostgreSQL
+  - item: Angular 2/4/6/8
+
+frameworks:
+  - item: CesiumJS
+  - item: Node
+  - item: D3
+
+
+tools:
+  - item: Linux
+  - item: Git & Github
+  - item: Chrome DevTools
+  - item: Postman
+  - item: MongoDB
+
+GIS:
+  - item: CesiumJS
+  - item: Google Maps
+  - item: Open Layer
+  - item: Luciad Developer
+  - item: PostGIS
+  - item: User Testing

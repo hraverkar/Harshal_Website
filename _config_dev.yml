@@ -1,0 +1,47 @@
+# Site settings
+name: Harshal Raverkar
+title: Harshal Raverkar | Software Engineer
+description: Software engineer focused on building GIS application and provide solution
+url: https://hraverkar.github.io/
+baseurl: ''
+email: harshal.raverkar@gmail.com
+cover: https://bchiang7.github.io/img/og.png
+logo: https://bchiang7.github.io/img/emojis/technologist.png
+resume: https://bchiang7.github.io/resume.pdf
+social:
+  - title: email
+    url: mailto:harshal.raverkar@gmail.com
+  - title: twitter
+    url: https://twitter.com/hraverkar
+  - title: instagram
+    url: https://instagram.com/hraverkar
+  - title: codepen
+    url: http://codepen.io/hraverkar
+  - title: github
+    url: https://github.com/hraverkar
+  - title: linkedin
+    url: https://www.linkedin.com/in/hraverkar
+  - title: medium
+    url: https://medium.com/@hraverkar
+
+# Build settings
+markdown: kramdown
+
+exclude:
+  - 'Gemfile'
+  - 'Gemfile.lock'
+  - '*.gemspec'
+  - 'README.md'
+  - 'node_modules'
+  - 'build'
+  - 'gulpfile.js'
+  - 'package.json'
+
+keep_files:
+  - 'CNAME'
+  - '.git'
+  - '.gitignore'
+
+plugins_dir:
+  - jekyll-minifier
+  - jekyll-sitemap
